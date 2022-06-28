@@ -1,0 +1,262 @@
+body{
+    font-family:  Helvetica, sans-serif;
+}
+#speimg{
+    background: url('img/banner.jpg')no-repeat;
+    height: 30em;
+    width: 76%;
+    margin: 0 auto;
+
+}
+h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 3em;
+    font-family: 'Pacifico', cursive;
+    margin: 0 auto;
+}
+.ccv{
+    display: flex;
+    justify-content: center;
+}
+header p{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 44%;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+h3{
+    margin-top: 53em;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: Helvetica, sans-serif;
+}
+.part6{
+    text-align: center;
+}
+header hr{
+    color: white;
+    width: 14%;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+}
+header span{
+    border-bottom: 1px solid white;
+}
+.section2{
+    height: 35em;
+    width: 39%;
+    float: left;
+    background-color: white;
+    margin-top: 10em;
+    margin-left: 6.5em;
+}
+.part1{
+    background-image: url('img/pic01.jpg');
+    background-size: cover;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 h2{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+}
+.part3{
+    background-image: url('img/pic02.jpg');
+    background-size: cover;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but:hover{
+    border: 2px solid  #EF6480;
+}
+.but2:hover{
+    border: 2px solid  #EF6480;
+}
+.but3:hover{
+    border: 2px solid  #EF6480;
+}
+footer{
+    margin-top: 5em;
+    background-color: white;
+    width: 88%;
+    margin-left: 5em;
+}
+h5{
+    padding-top: 3em;
+    margin-left: 3em;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: Helvetica, sans-serif;
+}
+#section1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: 30em;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 5em;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.clear{
+    clear: both;
+}
+.rond{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.far{
+    color: #656565;
+    font-size: 4em;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: #F4F4F4;
+    width: 76%;
+    margin: 0 auto;
+}
+.but2{
+    width: 7em;
+    height: 3em;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+#section1 p{
+    width: 32%;
+    text-align: center;
+}
+.section2 p{
+    width: 69%;
+    text-align: center;
+}
+h5 + p{
+    margin-left: 50px;
+    width: 90%;
+}
+h6{
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 10em;
+    margin: 0;
+}
+.glbdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    padding-bottom: 5em;
+}
+.part4{
+    background-image: url('img/pic03.jpg');
+    background-size: cover;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+}
+input{
+    height: 35px;
+}
+.t3{
+    width: 50%;
+    margin: 3px;
+    border-radius: 4px;
+    border: 2px solid grey;
+    background-color:#F4F4F4;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.part5{
+    background-image: url('img/pic04.jpg');
+    background-size: cover;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.but{
+    background-color: white;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+}
+
+.but3{
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+}
+i + p{
+    margin-top: 3em;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    right: 5em;
+}
+
+.lastpart{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+#hr{
+    height: 0;
+    width: 6em;
+    border: 1px solid black;
+    position: relative;
+    left: 8em;
+}
+.io{
+    margin-right: 20px;
+}
+.icon{
+    margin-top: 6em;
+}
+main span:first-of-type{
+    border-bottom: 1px solid  black;
+}
+main span:nth-of-type(2){
+    border-bottom: 1px dotted black;
+}

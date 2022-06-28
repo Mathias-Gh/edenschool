@@ -1,0 +1,74 @@
+body{
+    background: url(../img/fond.png);
+    font-family: Roboto, sans-serif;
+}
+header{
+    background-color: #27032D;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+header div img{
+    width: 30%;
+}
+header div{
+    padding: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    margin: 35px;
+    width: 100px;
+}
+main{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+article{
+    width: 75%;
+    margin: 0 auto;
+}
+.hand{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.hand p{
+    margin: 0;
+    font-family: 'Luckiest Guy', cursive;
+}
+main img{
+    width: 20%;
+}
+.gon{
+    display: flex;
+}
+.gon p{
+    margin: 0;
+}
+button{
+    background-color: #27032D;
+    color: white;
+    margin: 0;
+    border: transparent;
+    padding: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+article:last-of-type .btn{
+    padding-bottom: 50px;
+}

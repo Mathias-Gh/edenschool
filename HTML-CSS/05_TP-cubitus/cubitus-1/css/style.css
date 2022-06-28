@@ -1,0 +1,19 @@
+.purple{
+    background-color: #7A43E0;
+    float: left;
+}
+.green{
+    background-color: #43E07A;
+    float: left;
+}
+.green, .purple{
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px black solid;
+    height: 200px;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}

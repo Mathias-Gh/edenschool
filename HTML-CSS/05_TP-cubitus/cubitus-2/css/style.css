@@ -1,0 +1,32 @@
+.green, .blue, .white, .red, #red, .circle{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: left;
+}
+.green, .blue, .red, #red, .circle{
+    border: 2px black solid;
+    text-align: center;
+}
+.green{
+    background-color: #008000;
+    border-radius: 20px 30px 45px 60px;
+}
+.blue{
+    background-color: #00FFFF;
+    border-radius:75px 0 75px 0;
+}
+.circle{
+    background-color: #7FFFD4;
+    border-radius: 50% 50%;
+}
+.red, #red{
+    background-color: #E9967A;
+    border-radius: 20px 75px 20px 75px;
+}
+#red{
+    background-color: red;
+}
+.clear{
+    clear: both;
+}

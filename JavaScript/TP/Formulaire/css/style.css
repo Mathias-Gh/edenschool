@@ -1,0 +1,9 @@
+body{
+    font-family: 'Arial, helvetica', sans-serif;
+}
+div{
+    margin: 10px;
+}
+input{
+    display: flex;
+}

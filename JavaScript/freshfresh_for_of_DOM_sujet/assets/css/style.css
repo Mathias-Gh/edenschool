@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Capriola&family=Fascinate&display=swap');
+
+/* colors
+https://coolors.co/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6*/
+
+/* emoji for btn back to top
+https://getemoji.com/*/
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 150px 0;
+}
+section{
+    text-align: center;
+    color: #FF9F1C;
+    background-color: #CBF3F0;
+    padding: 15px;
+    font-size: 25px;
+}
+#menu article{
+    width: 31%;
+    padding: 30px;
+    border: 1px solid #FF9F1C;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 30rem;
+    object-fit: cover;
+    width: 100%;
+}
+h1, h2, small{
+    font-family: 'Fascinate', cursive;
+}
+header, footer{
+    background-color: #2EC4B6;
+    color: white;
+    text-align: center;
+    padding: 45px 15px 15px;
+}
+h3{
+    font-family: 'Bad script', cursive;
+    font-size: 27px;
+    margin: 10px;
+    color: #FF9F1C;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+small{
+    font-size: 25px;
+}
+.container{
+    width: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Capriola', sans-serif;
+    width: 85%;
+}
+#slogan a:after{
+    background-color: #FF9F1C;
+    border-radius: 50% 50%;
+    position: fixed;
+    right: 50px;
+    padding: 0 25px 7px;
+    font-size: 75px;
+    content: "♠";
+    color: black;
+}

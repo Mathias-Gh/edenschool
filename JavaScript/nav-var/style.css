@@ -1,0 +1,64 @@
+header, ul{
+    display: flex;
+    align-items: center;
+    font-family: 'Arial, Helvetica', sans-serif;
+}
+:root{
+    --light: wheat;
+    --white: white;
+    --black: black;
+    --15: 15px;
+}
+button{
+    border: 0 transparent;
+    padding: var(--15);
+    background-color: var(--black);
+    color: wheat;
+    cursor: pointer;
+    font-weight: bold;
+}
+nav{
+    width: 50%;
+}
+a{
+    color: var(--black);
+}
+.light{
+    background-color: wheat;
+}
+.black{
+    background-color: var(--black);
+}
+.blackFont{
+    color: black;
+}
+.black a, .black h1{
+     color: var(--light);
+ }
+header{
+    background-color: var(--light);
+    justify-content: space-between;
+}
+ul li{
+    color: var(--white);
+    list-style: none;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+h1{
+    margin: var(--15);
+    color: black;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul{
+    justify-content: space-evenly;
+}

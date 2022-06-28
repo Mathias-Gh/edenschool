@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Bangers', cursive;
+}
+div{
+    padding: 2%;
+    margin: 2%;
+    border-radius: 15px;
+}
+.div1{
+    background-color: #db6060;
+}
+.div2{
+    background-color: #f0f072;
+}
+.div3 {
+    background-color: #86dd86;
+}
+#float a, #default a{
+    text-decoration: none;
+    color: white;
+}
+#float > .float{
+    float: left;
+}
+.clear{
+    clear: both;
+}

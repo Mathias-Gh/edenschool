@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscription</title>
+</head>
+<body>
+<form>
+    <p>Identité</p>
+    <section>
+        <fieldset>
+            <label for="texta">Pseudo*</label>
+            <input type="text" id="texta" placeholder="Jean31" class="inp">
+            <br>
+            <label for="textd">Mot de passe*</label>
+            <input type="text" id="textd" placeholder="Mot de passe" class="inp">
+            <br>
+            <label for="textv">Email</label>
+            <input type="email" id="textv" placeholder="email" class="inp">
+            <br>
+            <label for="texts">Ville:</label>
+            <select name="Ville" id="texts">
+                <option value="Paris">Paris</option>
+                <option value="Marseille">Marseille</option>
+                <option value="lyon">Lyon</option>
+            </select>
+            <br>
+            <label for="text">Code postal</label>
+            <input type="text" id="text" class="inp">
+            <br>
+            <label for="photo">Photo</label>
+            <input type="file" id="photo" placeholder="parcourir" class="inp">
+        </fieldset>
+        <br>
+        <p>Question</p>
+        <fieldset>
+            <label for="mr">Quelle destination choisissez-vous ?</label>
+            <div class="glbchoice">
+                <input type="checkbox" name="choice" id="choice">
+                <p>chine</p>
+                <input type="checkbox" name="choice" value ="true" checked id="choice">
+                <p>australie</p>
+                <input type="checkbox" name="choice" id="choice">
+                <p>mars</p>
+            </div>
+            <br>
+            <label for="com">Commentaire</label>
+            <textarea name="comment" id="com" cols="190" rows="10"></textarea>
+        </fieldset>
+    </section>
+    <section>
+        <div class="union">
+            <input type="checkbox" name="choice" id="choice">
+            <p>J'accepte les conditions d'utilisation du site* </p>
+        </div>
+        <br>
+        <input type="submit" name="Submit" value="S'inscrire" id="envoi">
+        <input type="submit" name="Submit" value="Annuler" id="annul">
+    </section>
+</form>
+</body>
+</html>

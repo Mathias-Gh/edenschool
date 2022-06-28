@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Base Bootstrap v5.1.3</title>
+
+    <!-- CSS Bootstrap en CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS personnel TOUJOURS APRES celui du framework -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item " href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="row">lorem</div>
+<div class="row">
+    <div class="col">lorem</div>
+    <div class="col">lorem</div>
+    <div class="col">
+        <div class="row">
+            <div class="col bg-success">Hello</div>
+            <div class="col">Hello</div>
+            <div class="col">Hello</div>
+            <div class="col">Hello</div>
+            <div class="col">Hello</div>
+            <div class="col">Hello</div>
+        </div>
+    </div>
+    <div class="col bg-primary">lorem</div>
+</div>
+<div class="row">lorem</div>
+<div class="row">
+    <div class="col-3">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+    <div class="col "></div>
+    <div class="col-7 "></div>
+</div>
+<div class="row">
+    <div class="col-md-6 offset-md-3 c5">.col-md-6 .offset-md-3</div>
+</div>
+<h4>Imbriquer des blocs de la grille : 'nesting'</h4>
+
+<div class="row bg-danger">
+    <div class="col-sm-9 c4 ">
+        1er niveau : .col-sm-9
+        <div class="row ">
+            <div class="col-8 col-sm-6 c1">
+                2ème niveau : .col-8 .col-sm-6
+            </div>
+            <div class="col-4 col-sm-6 c3">
+                2ème niveau : .col-4 .col-sm-6
+                <div class="row">
+                    <div class="col-4 c4 bg-primary ">3ème</div>
+                    <div class="col-4 c1 text-success">3ème</div>
+                    <div class="col-4 c5 text-danger">3ème</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 c2">1er niveau : .col-sm-3</div>
+</div>
+<div class="row">
+    <div class="col-2">Pixel</div>
+    <div class="col-2">Pixel</div>
+    <div class="col-2">Pixel</div>
+    <div class="col-2">Pixel</div>
+    <div class="col-2">Pixel</div>
+    <div class="col-2">Pixel</div>
+    <div class="col-4">Pixel</div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col order-last">
+            UN
+        </div>
+        <div class="col">
+            DEUX
+        </div>
+        <div class="col">
+            TROIS
+        </div>
+        <div class="col">
+            QUATRE
+        </div>
+        <div class="col">
+            CINQ
+        </div>
+        <div class="col order-first">
+            SIX
+        </div>
+    </div>
+</div>
+<!-- Contenu HTML -->
+
+<!-- JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

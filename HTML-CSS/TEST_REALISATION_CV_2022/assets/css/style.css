@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+header {
+  background: url("../../Visuel/bandeau.jpg") no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 5.8rem 0 13rem 0;
+  color: white;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 15rem;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1;
+}
+
+#dark {
+  position: fixed;
+  left: 0;
+  border: 0;
+  padding: 20px;
+}
+
+header img {
+  width: 9.8%;
+}
+
+h2 {
+  margin: 0;
+  letter-spacing: 4px;
+  font-size: 34px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 14rem;
+  padding: 5rem;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 55%;
+  margin: 20px auto;
+}
+
+nav li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+nav li:first-of-type {
+  color: #7DBCBB;
+}
+
+section:first-of-type {
+  display: flex;
+  justify-content: space-around;
+  width: 62%;
+  align-items: center;
+  margin: auto;
+}
+section:first-of-type article:first-of-type {
+  width: 65%;
+}
+section:first-of-type article:first-of-type h2 {
+  width: min-content;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1;
+}
+section:first-of-type article:first-of-type p {
+  width: 60%;
+}
+section:first-of-type article:last-of-type {
+  width: 35%;
+}
+section:first-of-type article:last-of-type img {
+  width: 100%;
+}
+
+#citation {
+  background-color: #7DBCBB;
+  color: white;
+  padding: 8rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+#quality {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+#quality article {
+  width: 34%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#quality article h3 {
+  width: 40%;
+  color: #7DBCBB;
+  font-size: 50px;
+}
+#quality article h3 span {
+  color: black;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.none {
+  position: relative;
+  right: 30in;
+  font-size: 30px;
+  width: 66%;
+  margin: auto;
+}
+
+#project {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#project h2 {
+  font-size: 50px;
+  font-weight: normal;
+}
+#project .all-div-img {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#project .all-div-img div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+}
+#project .all-div-img div img {
+  width: 75%;
+}
+#project .all-div-img div img {
+  z-index: -1;
+}
+#project .all-div-img div:hover {
+  background-color: #7DBCBB;
+  color: white;
+}
+#project .all-div-img #backPendu:hover .none {
+  position: relative;
+  left: 0;
+  bottom: 13pc;
+}
+#project .all-div-img #backSnake:hover .none {
+  position: relative;
+  left: 0;
+  bottom: 10pc;
+}
+#project .all-div-img #backQuiz:hover .none {
+  position: relative;
+  left: 0;
+  bottom: 20pc;
+}
+#project .all-div-img #backTamagotchi:hover .none {
+  position: relative;
+  left: 0;
+  bottom: 13pc;
+}
+
+#parcours {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#parcours article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#parcours article h3 {
+  color: #7DBCBB;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#parcours article h4 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.lightFont {
+  color: white;
+}
+
+.light {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.blackFont {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

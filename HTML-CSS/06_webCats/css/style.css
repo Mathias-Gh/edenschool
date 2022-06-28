@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #565A5D;
+    width: 63%;
+    margin: 0 auto;
+    color: white;
+}
+header{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    background: url(../img/cat-god.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h1, h2{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+main p, h2, q{
+    line-height: 30px;
+}
+h2{
+    font-size: 2em;
+}
+h1{
+    line-height: 70px;
+}
+q{
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-style: italic;
+}
+q + p{
+    text-align: right;
+    font-style: italic;
+}

@@ -1,0 +1,60 @@
+div{
+    width: 50px; height: 50px;
+}
+.rose{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+}
+div{
+    position: relative;
+}
+section{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.haut{
+    background-color: dodgerblue;
+    width: 200px;
+}
+.gauche{
+    background-color: green;
+    width: 100px;
+}
+.droite{
+    background-color: red;
+    width: 100px;
+}
+button{
+    height: 60px;
+}
+.bas{
+    background-color: yellow;
+    width: 200px;
+}
+article{
+    display: flex;
+    width: 200px;
+}
+img, button{
+    width: 50px;
+    border: 0 transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rond{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.none{
+    display: none;
+}
+.para{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 25px 10px 25px;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif, 'Roboto';
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Bangers', cursive;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.part{
+    width: 33%;
+}
+header p{
+    font-size: 50px;
+    color: red;
+}
+header img{
+    height: 17em;
+}
+main{
+    background-color: lightblue;
+}
+h3{
+    font-size: 20px;
+}
+main p{
+    font-family: cursive;
+}
+.class{
+    color: red;
+}
+#id-1{
+    text-decoration: underline;
+}
+#id-2{
+    border: 1px solid black;
+}
+#id-3{
+    background-color: black;
+}
+#id-4{
+    background-color: salmon;
+}
+#section-3 #id-3{
+    padding: 20%;
+}

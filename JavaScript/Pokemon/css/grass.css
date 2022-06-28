@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button img{
+    width: 25%;
+}
+button{
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+.mega{
+    content: url("../img/mega-venuzaurd.gif");
+    width: 40.66%;
+}
+#normal{
+    width: 23%;
+}

@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+main{
+    display: flex;
+    justify-content: space-around; 
+
+}
+img{
+    transition: 1s;
+    height: 250px;
+}
+img:hover{
+    width: 100%;
+    transition: 1s;
+    height: 300px;
+}
+div {
+    width: 33.3%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

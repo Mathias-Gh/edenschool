@@ -1,0 +1,71 @@
+body{
+    background: url(../tp/img/sneaker_mesh_fabric.png)
+}
+form{
+    background-color: rgba(228, 221, 223 ,0.75);
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+section{
+    padding: 5px;
+}
+#choice{
+    margin-left: 30px;
+}
+.inp{
+    width: 95%;
+    height: 2em;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: rgb(211, 198, 198) solid 1px;
+}
+select{
+    width: 95%;
+    height: 2.5em;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: rgb(211, 198, 198) solid 1px;
+}
+fieldset{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#photo{
+    padding: 10px;
+}
+.glbchoice{
+    display: block;
+}
+.glbchoice p{
+    display: inline-block;
+}
+.union p{
+    display: inline-block;
+}
+#envoi{
+    background-color: #367D35;
+    color: white;
+    font-size: larger;
+    height: 3em;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+#annul{
+    background-color:#72352E;
+    color: white;
+    font-size: larger;
+    height: 3em;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}

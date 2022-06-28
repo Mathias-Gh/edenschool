@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.12rem;
+    font-weight: bold;
+}
+
+/* mon css de base */ 
+
+/* Mon header*/
+header{
+    background-color: #37505c;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0px;/* mauvaise notation 0 sans px */
+    left: 0px;/* mauvaise notation 0 sans px */
+    right: 0px;/* mauvaise notation 0 sans px */
+}
+h1{
+    font-family: 'Megrim', cursive;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#header-menu nav{
+    font-size: 1.85rem; 
+}
+#header-menu ul{
+    display: flex;
+}
+#header-menu a{
+    background-color: transparent;
+    color: inherit;
+    text-decoration: inherit;
+}
+#header-menu li{
+    list-style: none;
+    display: inline;
+    padding: 40px 30px 40px 35px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+#header-menu .active{
+    background: #A0CFD3;
+    padding: 40px 30px 40px 35px;
+    color: black;
+    font-size: 1.5rem;
+}
+#header-menu nav li:hover{
+    background-color: #de6449;
+    color: white;
+    transition: 0.5s;
+}
+header + main {
+    padding-top: 102px;
+}
+.container{
+    margin: auto;
+    width: 90%
+}
+h2{
+    font-size: 4rem;
+}
+main{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+#content-marge img{
+    width: 30%;
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+    /* soucis de notation pour la box-shadow */
+    float: left;
+    margin-right: 20px;
+    height: 100px;
+}
+.d-flex-img-p{
+    display: flex;
+}
+#content-marge{
+    margin: 30px;
+}
+.d-flex-img-p p{
+    margin: inherit;
+    width: 60%;
+}
+#content-marge p{
+   text-align: justify;
+    line-height: 2rem;
+}
+#content-nav{
+    padding: 15px;
+    margin-top: 50px;
+    height: 100%;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #EDECED;
+}
+#sord{ /* nom non adapté */
+    color: #de6449;
+}
+.w50{/*nom non adapté*/
+    width: 92%;
+}
+#content-nav{
+    padding: 15px;
+}
+#content-nav li{
+    list-style: none;
+    padding: 15px;
+}
+#sord{ /*appelé deux fois inutilement */
+    color: #de6449;
+    float: right;
+    margin: auto;
+    width: 18%;
+}
+main{
+    display: flex;
+}
+#sord:hover {
+	text-decoration: underline;
+}
+#content-nav:hover{
+    background-color: #A0CFD3;
+    transition: 0.5s;
+}
+#content-nav li:hover{
+    background-color: #de6449;
+    padding: 5px 10px 4px 15px;
+    color: black;
+    font-size: 1.5rem;
+}
+footer{
+    background-color: #37505c;
+    color: white;
+}
+footer li{
+    opacity: 0.5;
+    list-style: none;
+}
+footer p{
+    opacity: 0.5;
+}
+footer h3{
+    font-family: 'Megrim', cursive;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer li:hover{
+    text-decoration: underline;
+ }
+@media (max-width: 1250px) { 
+    main{
+        flex-direction: column;
+    }
+    .d-flex-img-p img{
+        width: 100%;
+        height: 293px;
+    }
+ }
+ 
+ @media (max-width: 700px) { 
+    main{
+        flex-direction: column;
+    }
+    .d-flex-img-p img{
+        width: 100%;
+        height: 293px;
+        
+    }
+    #content-marge img {
+        width: 100%;
+        box-shadow: rgba(0 0 0 / 16%) 0 10px 36px 0px, rgba(0 0 0 / 6%) 0px 0px 0px 1px;
+        /* soucis de notation pour la box-shadow */
+        float: left;
+        margin-right: 20px;
+        height: 300px;
+    }
+    .d-flex-img-p {
+        display: block;
+    }
+    #header-menu .active {
+        background: #A0CFD3;
+        padding: 45px 30px 45px 35px;
+        color: black;
+        font-size: 1rem;
+    }
+    .d-flex-img-p img{
+        width: 100%;
+        height: 293px;
+    }
+    .d-flex-img-p p {
+        width: inherit;
+    }
+    .w50{/*nom non adapté*/
+        width: initial;
+    }
+    #sord{/*nom non adapté*/
+        width: initial;
+    }
+    #content-nav{
+        width: initial;
+    }
+ }

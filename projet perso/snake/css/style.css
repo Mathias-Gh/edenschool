@@ -1,0 +1,181 @@
+html{
+    height: 100%;
+}
+.haut{
+    position: absolute;
+    width: 1900px !important;
+    top: 0;
+    height: 20px;
+}
+.droite{
+    position: absolute;
+    right: 0;
+    width: 20px !important;
+    height: 995px !important;
+}
+.gauche{
+    position: absolute;
+    left: 0;
+    width: 20px !important;
+    height: 995px !important;
+}
+.bas{
+    position: absolute;
+    width: 1900px !important;
+    bottom: 0;
+    height: 20px;
+}
+p{
+    font-size: 15px;
+    cursor: pointer;
+}
+.bord{
+    background-color: brown;
+    width: 100%;
+}
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button img{
+    width: 18%;
+}
+button {
+    background-color: #59FF3D;
+    border: black 3px solid;
+    padding: 15px;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+    width: 14%;
+    justify-content: space-evenly;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 500px;
+}
+.center{
+    right: 0!important;
+}
+body{
+    background-image: url(../img-snake/back-snake.jpg);
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+
+.animation-up{
+    animation: up 1s;
+}
+.animation-left{
+    animation: left 1s;
+}
+.animation-right{
+    animation: right 1s;
+}
+.animation-bottom{
+    animation: bottom 1s;
+}
+.up {
+    background: url('../img-snake/snakeTop.png') no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+.bottom{
+    background: url('../img-snake/snakeDown.png') no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+.left{
+    background: url('../img-snake/snakeLeft.png') no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+.right{
+    background: url('../img-snake/snakeRight.png') no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+.glb{
+    width: 300px;
+    height: 300px;
+}
+.apple{
+    background: url("../img-snake/pomme.png") no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+@keyframes up {
+    0% {background: url("../img-snake/snakeTop.png") no-repeat;
+        opacity: 100%;}
+    33% {background: url("../img-snake/snakeTop.png")no-repeat;
+        opacity: 66%;}
+    66% {background: url("../img-snake/snakeTop.png")no-repeat;
+        opacity: 33%;}
+    100% {background: url("../img-snake/snakeTop.png")no-repeat;
+        opacity: 0;}
+}
+@keyframes left {
+    0% {background: url("../img-snake/snakeLeft.png") no-repeat;
+        opacity: 100%;}
+    33% {background: url("../img-snake/snakeLeft.png")no-repeat;
+        opacity: 66%;}
+    66% {background: url("../img-snake/snakeLeft.png")no-repeat;
+        opacity: 33%;}
+    100% {background: url("../img-snake/snakeLeft.png")no-repeat;
+        opacity: 0;}
+}
+@keyframes right {
+    0% {background: url("../img-snake/snakeRight.png") no-repeat;
+        opacity: 100%;}
+    33% {background: url("../img-snake/snakeRight.png")no-repeat;
+        opacity: 66%;}
+    66% {background: url("../img-snake/snakeRight.png")no-repeat;
+        opacity: 33%;}
+    100% {background: url("../img-snake/snakeRight.png")no-repeat;
+        opacity: 0;}
+}
+@keyframes bottom {
+    0% {background: url("../img-snake/snakeDown.png") no-repeat;
+        opacity: 100%;}
+    33% {background: url("../img-snake/snakeDown.png")no-repeat;
+        opacity: 66%;}
+    66% {background: url("../img-snake/snakeDown.png")no-repeat;
+        opacity: 33%;}
+    100% {background: url("../img-snake/snakeDown.png")no-repeat;
+        opacity: 0;}
+}

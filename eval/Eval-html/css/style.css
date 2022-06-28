@@ -1,0 +1,155 @@
+
+header{ /*header*/
+    background-color: #37505c;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+body{/*body*/
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    display: flex;
+    font-size: 20px;
+    height: 60px;
+}
+nav li:first-of-type{
+    background-color: #9ECED2;
+}
+nav li:first-of-type a{
+    color: black;
+}
+nav li:hover{
+    background-color: #de6449;
+    transition: 0.5s;
+}
+nav li:hover a{/*hover*/
+    color: white;
+}
+h1{/*title*/
+    margin: 0 0 0 1%;
+    font-size: 1.85rem;
+}
+.img{
+    box-shadow: 0 0 25px 10px rgba(0,0,0,0.5);
+    width: 30%;
+}
+#flex{
+    display: flex;
+}
+#right {
+    margin: 0 0 0 20px;
+    width: 70%;
+}
+.img img{/*img*/
+    width: 100%;
+}
+article:first-of-type p{
+    text-align: justify;
+    width: 100%;
+}
+article:first-of-type{
+    width: 70%;
+    margin-bottom: 30px;
+}
+h2{
+    width: 100%;
+    font-size: 1.85rem;
+}
+h1, h3{
+    font-family: 'Megrim', cursive;
+    color: white;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    padding: 15px;
+}
+#link{/*link*/
+    color: #DF6A45;
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+}
+footer li a:hover, #link:hover{
+    text-decoration: underline;
+}
+main{/*main*/
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+article:last-of-type p:hover{
+    background-color: #DF6A45;
+    transform: scale(1.2);
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+}
+article:last-of-type{
+    width: 25%;
+    background-color: rgba(238, 238, 238, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+    height: 100%;
+    margin-top: 10px;
+}
+article:last-of-type:hover{
+    background-color: #A0CFD3;
+}
+h3{
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+footer{/*footer*/
+    background-color: #37505c;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+footer ul a{
+    color: gray;
+}
+footer ul li{
+    margin: 0;
+    padding: 0;
+}
+footer a{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.clear{
+    clear: both;
+}
+#scale:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+aside h3, #scale{
+    font-style: italic;
+}

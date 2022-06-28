@@ -1,0 +1,275 @@
+body{
+    font-family: "Open Sans", sans-serif, Arial, Helvetica;
+    background-color: #CCCCCC;
+    border-left: 15px solid #CCC;
+    border-bottom: 15px solid #CCC;
+    border-right: 15px solid #CCC;
+}
+header{
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#min-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 98.4%;
+    border-top: 15px solid #CCCCCC;
+}
+#logo + div{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+header h1 + p{
+    width: 19%;
+    margin-left: 20px;
+}
+header button{
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 20px;
+}
+.hr:first-of-type{
+    margin-top: 200px;
+}
+header .hr{
+    margin-left: 20px;
+}
+.hr{
+    border-bottom: 5px solid #D2B356;
+    color: #FCFCFC;
+    width: 30px;
+}
+h1{
+    font-size: 70px;
+    width: 23%;
+    margin-left: 20px;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    background: url("../14_TP_Arctik_consignes/images/banner-images/banner-image-1.jpg") top no-repeat;
+    background-size: 100%;
+}
+header button{
+    width: 15%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 5px 15px 5px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+main{
+    background-color: white;
+}
+h2{
+    width: 75%;
+    margin: 0;
+    font-size: 40px;
+}
+section:first-of-type{
+    display: flex;
+    padding-top: 200px;
+}
+.opacity{
+    opacity: 50%;
+    color: grey;
+    font-weight: bold;
+}
+.success{
+    padding-left: 50px;
+    width: 35%;
+}
+.p-bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    width: 65%;
+}
+#p-width{
+    width: 65%;
+}
+.flex i{
+    color: #D2B356;
+    font-size: 30px;
+}
+.p-bold + p{
+    width: 85%;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+.gallery img{
+    width: 32%;
+    margin: 0;
+}
+#believe{
+    width: 50%;
+    margin: 0 50px 0 50px;
+}
+#john{
+    text-align: right;
+    width: 31%;
+}
+.gallery div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+section:nth-of-type(2){
+    display: flex;
+    margin-top: 150px;
+}
+#dancer{
+    width: 50%;
+    margin: 0 50px 0 50px;
+}
+#dancer img{
+    width: 75%;
+}
+.btn{
+    width: 40%;
+    height: 65px;
+    border: solid;
+    margin-top: 55px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#arrow{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 14px solid black;
+    margin: 5px;
+}
+section:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+section:nth-of-type(3) h2{
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+.margin{
+    margin: auto;
+}
+section:nth-of-type(3) img{
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#glb-img-radius{
+    display: flex;
+    justify-content: space-around;
+}
+#company img{
+    width: 25%;
+}
+#flex{
+    display: flex;
+}
+#company{
+    width: 100%;
+}
+#flex h2, #trust p:last-of-type{
+    width: 62%;
+}
+#flex .hr{
+    margin: 25px 0 25px 0;
+}
+#flex .hr + p{
+    line-height: 30px;
+}
+#center{
+    text-align: center;
+}
+#center h2{
+    width: auto;
+}
+#center .hr{
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#price{
+    background-color: #CCCCCC;
+    padding: 75px 0 75px 0;
+}
+#choice{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.offer{
+    width: 31.3%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 20px solid #CCC;
+}
+.offer:hover{
+    border: 15px solid #D2B356;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+.small-opacity{
+    opacity: 50%;
+    font-style: italic;
+}
+.classic{
+    background-color: #CCCCCC;
+}
+#special{
+    background-color: #D2B356;
+    color: white;
+}
+pre span{
+    font-size: 55px;
+}
+pre{
+    text-align: initial;
+    font-weight: bold;
+}
+.avantages p:not(.avantages p:last-of-type){
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.offer button{
+    margin: 100px auto auto;
+    background-color: white;
+}
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+footer p, i{
+    opacity: 50%;
+}
+footer ul{
+    margin: 0;
+}

@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif, 'Roboto';
+    text-decoration: none;
+}
+header{
+    background: url("../img/images.png");
+    background-size: 50px;
+}
+nav{
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+}
+ul{
+    display: flex;
+    align-items: center;
+    width: 66%;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+    width: 13%;
+    text-align: center;
+}
+nav li a i{
+    color: #83D6D6;
+}
+nav img{
+    width: 15%;
+    height: 100px;
+}
+nav div:first-of-type:not(#phone) p:last-of-type{
+    font-weight: bold;
+    width: 103px;
+}
+#phone{
+    background-color: #FFE600;
+    width: 15%;
+    padding: 4px;
+    height: 25px;
+    margin: 3px;
+}
+#number p:first-of-type{
+    font-size: 12px;
+}
+#number p{
+    margin: 0;
+}
+#glbphone{
+    display: flex;
+    align-items: center;
+}
+#bigclass img{
+    width: 100%;
+    transform: rotateY(-180deg);
+}
+main section:first-of-type{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+section:first-of-type button a{
+    color: black;
+    text-decoration: none;
+}
+#arrow-right{
+    background-color: #FFD400;
+    border-radius: 50% 50%;
+    width: 2.5em;
+    display: flex;
+    height: 2.5em;
+    justify-content: center;
+    align-items: center;
+}
+#class{
+    width: 100%;
+    background-color: rgba(17, 16, 80, 0.85);
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#big-arrow{
+    display: flex;
+}
+#right{
+    width: 40%;
+    margin-left: 25px;
+}
+#text{
+    font-size: 25px;
+}
+#class button{
+    background-color: #FFD400;
+    width: 53%;
+    font-size: 13px;
+    padding: 9px;
+    font-weight: bold;
+    border: transparent 1px solid;
+    border-bottom: #807600 7px solid;
+}
+#class p:not(#p){
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+#bigclass{
+    width: 60%;
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+#p{
+    font-size: 17px;
+    color: white;
+}
+#yellow{
+    width: 75%;
+    margin: 0;
+    background-color: #FFD400;
+}
+#yellow p{
+    font-weight: bold;
+    text-align: center;
+    padding: 13px;
+    margin: 0;
+}
+#right .column img{
+    width: 75%;
+}
+h2{
+    margin: 0;
+}
+.column i{
+    color: white;
+}
+#back1{
+    background-color: #3B5998;
+    padding: 20px;
+    text-align: center;
+}
+#back2{
+    background-color: #44A5EE;
+    padding: 20px;
+    text-align: center;
+}
+#back3{
+    background-color: #2C7CB6;
+    padding: 20px;
+    text-align: center;
+}
+#text-rotate{
+    transform: rotateZ(270deg);
+}
+#text-rotate p{
+    font-size: 10px;
+}
+#arrow-right a{
+    color: black;
+    text-decoration: none;
+}
+#fix hr{
+    background-color: black;
+    margin: 0;
+}
+#fix{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: white;
+    z-index: 2;
+}
+#fix p{
+    margin: 0;
+}
+#fix button{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+    margin: 10px;
+}
+#fix button a{
+    color: white;
+    text-decoration: none;
+}
+#form{
+    display: flex;
+    justify-content: space-evenly;
+    width: 61%;
+    margin: 0 auto;
+    padding: 75px;
+}
+#form .column p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+#form img{
+    margin: 0 auto;
+}
+.border{
+    width: 150px;
+    height: 3px;
+    background-color: #66CCCC;
+}
+.img-mid {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+#form .column{
+    flex-grow: 1;
+    margin: 10px;
+}
+#clock{
+    width: 61%;
+    margin: 0 auto;
+}
+#clock button{
+    background-color: #66CCCC;
+    border: transparent;
+    padding: 10px;
+    border-bottom: 7.5px #51B8B8 solid;
+}
+#clock button a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.img-clock{
+    float: left;
+}
+h3{
+    font-size: 45px;
+    margin: 0;
+}
+#isle{
+    background-color: #66CCCC;
+    margin-top: 200px;
+}
+h5{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+#in-isle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.arrow-white{
+    background-color: white;
+    border-radius: 50% 50%;
+    padding: 10px 15px;
+}
+#ready{
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+    padding-top: 40px;
+}
+#in-isle .column p{
+    text-align: center;
+    margin: 0;
+}
+.opacity{
+    opacity: 50%;
+}
+.opacity p:last-of-type{
+    color: white;
+}

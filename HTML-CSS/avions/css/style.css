@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border: steelblue 2px solid;
+    border-collapse: collapse;
+}
+tr td:first-of-type{
+    width: 25%;
+}
+.toptable{
+    background-color: #EFF6FF;
+    font-size: large;
+    border-bottom: 1px blue dotted;
+    font-weight: bold;
+}
+.toptable2{
+    background-color: #EFF6FF;
+    font-size: large;
+    border-bottom: 1px blue solid;
+    border-left: 1px dotted blue;
+    font-weight: bold;
+}
+tbody td:first-of-type.toptable{
+    border-top: solid 1px blue;
+}
+tr:first-of-type td, tr:last-of-type td{
+    background-color: #EFF6FF;
+    border-left: 1px dotted blue;
+    font-weight: bold;
+}

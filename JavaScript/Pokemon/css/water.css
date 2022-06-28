@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+     font-family: 'Roboto', sans-serif;
+     box-sizing: border-box;
+}
+button img{
+    width: 25%;
+}
+button{
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+.mega{
+    content: url("../img/Gyarados_Mega.gif");
+    width: 39.15%;
+}
+#normal{
+    width: 23%;
+}
